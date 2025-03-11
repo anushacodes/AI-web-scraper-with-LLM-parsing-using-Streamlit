@@ -1,0 +1,51 @@
+# Custom CSS for the application
+
+custom_css = """
+<style>
+    .main {
+        background-color: #f8f9fa;
+    }
+    .stButton button {
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 5px;
+        padding: 0.5em 1em;
+        font-weight: bold;
+    }
+    .stButton button:hover {
+        background-color: #45a049;
+    }
+    .css-1d391kg {
+        padding: 1em;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #2E7D32;
+    }
+    h2, h3 {
+        color: #1565C0;
+    }
+    .stTextArea textarea {
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+    .scraped-content {
+        background-color: #f1f8e9;
+        padding: 1em;
+        border-radius: 5px;
+        border-left: 5px solid #8bc34a;
+    }
+    .llm-analysis {
+        background-color: #f8f9fa;
+        padding: 1em;
+        border-radius: 5px;
+        border-left: 5px solid #2196f3;
+        margin-top: 1em;
+        color: #333333;
+        font-weight: 500;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+</style>
+"""
